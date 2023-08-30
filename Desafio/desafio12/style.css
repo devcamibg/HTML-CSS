@@ -1,23 +1,74 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'Sriracha';
-    src: url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Roboto+Condensed:ital,wght@1,700&display=swap') format()
-}
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Roboto+Condensed:ital,wght@1,700&family=Sriracha&display=swap');
+
 
 header {
+    color: white;
     background-color: black;
     padding: 40px;
     margin: -9px;
 }
 
 h1 {
+
     color: white;
     font-family: ;
 }
 
+p{
+    margin: 0px;
+}
+#p1 {
+    margin-top: -10px;
+}
+#p2 {
+    margin-top: 40px;
+    margin-bottom:60px ;
+}
+section {
+    color: black;
+    font-family: 'Sriracha', cursive;
+    font-size: 1.12em;
+    line-height:40px ;
+}
+
 section.simples {
+    margin:70px 0px 0px 20px ;
     background-color: white;
     color: black;
-    font-family: 'Courier New', Courier, monospace;
+}
+
+#figura1 { 
+    position: relative; 
+    height: 70vw;
+    margin: 100px -9px 60px -9px;
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#texto1 {
+    
+    height:280px ;
+    width: 211px;
+    position: absolute;
+    padding:5px 5px ;
+    margin-left: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.541);
+    left: 50%;
+    top: 50%;
+    transform: translate(-115%,-50%);
+}
+    
+#figura2 {
+    margin: 100px -9px 60px -9px;
+    background-image:url('imagens/background002.jpg');
+    background-position:left  bottom ;
+    background-attachment: fixed;
+    background-size: cover;
+
 }
