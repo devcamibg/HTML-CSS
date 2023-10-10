@@ -29,6 +29,8 @@ h1 {
 
     color: white;
     font: lighter 3em 'Passion One', cursive;
+    
+
 }
     
 
@@ -83,6 +85,7 @@ section.simples {
 }
     
 #figura2 {
+  
     margin: 100px -9px 60px -9px;
     background-image:url('imagens/background002.jpg');
     background-position:left  bottom ;
@@ -90,7 +93,25 @@ section.simples {
     background-size: cover;
 
 }
-div {
-    background-color: rgba(0, 0, 0, 0.349);
+#texto2 {
     
+    height: 370px;
+    width: 230px;
+    padding: 2px 5px;
+    margin-left: 30px;
+    
+    color: white;
+    background-color: rgba(0, 0, 0, 0.541);
 }
+
+footer {
+    margin: none;
+    padding: 0px 10px;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+    
+    
+
