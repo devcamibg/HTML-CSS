@@ -7,14 +7,15 @@
 
 
 
-
 header {
     color: white;
     background-color: black;
+    font-variant: small-caps;
     padding: 50px;
     margin: -9px;
     text-align: center;
 }
+
 #citação {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
