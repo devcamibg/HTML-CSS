@@ -4,15 +4,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
+html,body {
+    min-height: 100vh;
+    background-color: darkgray;
 
+}
 
 header {
     color: white;
     background-color: black;
-    font-variant: small-caps;
-    padding: 50px;
-    margin: -9px;
     text-align: center;
 }
 
@@ -21,41 +26,49 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: -30px;
 }
+
 a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
 }
-h1 {
 
+a:hover {
+    text-decoration: underline;
+}
+
+header > h1 {
     color: white;
-    font: lighter 3em 'Passion One', cursive;
+    font: lighter 10vw 'Passion One', cursive;
+    font-variant: small-caps;
+    padding: 50px;
     
 
 }
     
 
 
-p{
-    margin: 0px;
+header > p {
+    
+    padding-bottom: 50px;
 }
 
-#p1 {
-    margin-top: -10px;
-}
-#p2 {
-    margin-top: 40px;
-    margin-bottom:60px ;
-}
+
 section {
+    padding-top: 10vh;
+    padding-bottom: 10vw;
+    padding-left: 30px;
     color: black;
     font-family: 'Sriracha', cursive;
-    font-size: 1.12em;
-    line-height:38px ;
+    font-size: 3.5vw;
+    line-height: 2em;
+}
+section > p {
+    padding-bottom: 1em;
 }
 
 section.simples {
-    margin:70px 0px 0px 20px ;
+    
     background-color: white;
     color: black;
 }
@@ -63,51 +76,48 @@ section.simples {
 #figura1 { 
     position: relative; 
     height: 70vw;
-    margin: 100px -9px 60px -9px;
     background-image: url('imagens/background001.jpg');
     background-position: right center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.548);
 }
 
 #texto1 {
-    
-    height:280px ;
-    width: 211px;
+    display: inline-block;
     position: absolute;
     padding:2px 5px;
     margin-left: 30px;
     color: white;
     background-color: rgba(0, 0, 0, 0.541);
-    left: 50%;
-    top: 50%;
-    transform: translate(-115%,-50%);
+    text-shadow: 1px 1px 0px black;  
 }
     
 #figura2 {
-  
-    margin: 100px -9px 60px -9px;
+   
     background-image:url('imagens/background002.jpg');
     background-position:left  bottom ;
     background-attachment: fixed;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.548);
+    
 
 }
 #texto2 {
     
-    height: 370px;
-    width: 230px;
+    display: inline-block;
     padding: 2px 5px;
-    margin-left: 30px;
-    
     color: white;
     background-color: rgba(0, 0, 0, 0.541);
+    text-shadow: 1px 1px 0px black;  
 }
 
+
 footer {
+    text-align: center;
     margin: none;
-    padding: 0px 10px;
+    padding:  10px;
     background-color: black;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
